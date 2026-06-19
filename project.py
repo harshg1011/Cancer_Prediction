@@ -84,8 +84,6 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy : ", round(accuracy * 100,2), "%")
 
 joblib.dump(pipeline, "model/cancer_model.pkl")
-import joblib
 
-joblib.dump(pipeline, "model/cancer_model.pkl")
 
 print("Model Saved Successfully")
