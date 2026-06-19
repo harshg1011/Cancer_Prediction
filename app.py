@@ -20,7 +20,7 @@ age = st.number_input("Age", min_value=0, max_value=120,value = 0)
 gender = st.selectbox(
     "Gender",
     ["Select Gender","Male", "Female"])
-
+ 
 state = st.selectbox(
      "State",
      ["Select State","UP", "Delhi", "Bihar", "Maharashtra", "Other"])
